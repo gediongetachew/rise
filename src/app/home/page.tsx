@@ -1,4 +1,3 @@
-import Link from "next/link";
 import NavBar from "../../components/nav";
 import Hero from "@/components/Hero";
 import Brandcard from "@/components/Brandcard";
