@@ -1,7 +1,7 @@
 export default function Nav() {
   const arry = ["Home", "About", "Products", "News", "Contact"];
   return (
-    <div className="flex justify-between items-center w-full p-10">
+    <div className="flex justify-between items-center w-full py-10 px-20">
       <h1 className="font-bold text-xl">Rise</h1>
       <div className="flex justify-center items-center w-full">
         <ul className="flex space-x-20 text-black hover:text-black font-medium">

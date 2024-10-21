@@ -4,15 +4,15 @@ import heroImage from "../../assets/rise.png";
 export default function Hero() {
   return (
     <>
-      <div className="flex  mt-20 p-10">
+      <div className="flex  mt-20 pb-10  px-20">
         <div className="w-1/2 pt-12">
           <h1 className="font-bold text-3xl">
             Bringing Innovation to <br /> HealthCare Your Trusted Partner In{" "}
             <br /> Medical Equipment{" "}
           </h1>
-          <p className="mt-5">
+          <p className="mt-5 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et
-            esse facere numquam earum dolore modi officiis excepturi
+            esse <br /> facere numquam earum dolore modi officiis excepturi
             exercitationem accusamus, sequi magni, amet natus odit blanditiis,
             magnam eaque illo. Quaerat!
           </p>
@@ -31,11 +31,11 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center pl-5 pt-5">
+        <div className="w-1/2 flex justify-center pl-5  ">
           <Image
             className="clip-custom rounded-lg hidden md:block"
             src={heroImage}
-            height={75}
+            height={200}
             width={500}
             alt={""}
           />
